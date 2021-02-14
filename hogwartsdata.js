@@ -74,7 +74,7 @@ function prepareObjects(jsonData) {
 
     student.house =
       student.house.substring(0, 1).toUpperCase() +
-      student.house.substring(0).toLowerCase();
+      student.house.substring(2).toLowerCase();
 
     student.image =
       student.lastName.toLowerCase() +
